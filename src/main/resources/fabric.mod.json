@@ -3,13 +3,13 @@
 	"id": "weirdmods",
 	"version": "${version}",
 	"name": "WeirdMods",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "我的一些奇奇怪怪的想法",
 	"authors": [
-		"Me!"
+		"旺仔小馒头"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/ADDAP0/weirdmods-1.21"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/weirdmods/icon.png",
@@ -20,7 +20,8 @@
 		],
 		"fabric-datagen": [
 			"com.weaird.WeirdModsDataGenerator"
-		]
+		],
+		"client": ["com.weaird.WeirdModClient"]
 	},
 	"mixins": [
 		"weirdmods.mixins.json"
