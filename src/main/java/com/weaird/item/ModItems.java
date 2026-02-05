@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item SYnNTHETIC_JADE = registerItems("synthetic_jade",new Item(new Item.Settings()));
+    public static final Item ADVANCED_VOUCHER = registerItems("advanced_voucher",new Item(new Item.Settings()));
 
     private static Item registerItems(String id,Item item){
         return Registry.register(Registries.ITEM,Identifier.of(WeirdMods.MOD_ID,id),item);
